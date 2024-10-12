@@ -33,6 +33,8 @@ Memory Usage Comparison
 - Bloom Filter: 48 bytes
 - Set: 8,388,824 bytes
 This demonstrates that the Bloom Filter uses significantly less memory compared to a list or set while providing efficient membership testing.
+![image](https://github.com/user-attachments/assets/10d9a8e8-a7a9-4d7c-9dc1-4cb541965971)
+
 
 ### Performance Comparison
 Using the timeit command, we compare the time taken to check for the word "California" in a list, Bloom Filter, and set:
